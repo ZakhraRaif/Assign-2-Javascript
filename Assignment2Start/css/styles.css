@@ -1,0 +1,87 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {  
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; 
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+header img{
+    height: 100px;;
+}
+  
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    color:#fff;
+    
+  }
+
+
+#myStudentId {
+    font-size: 1.2em;
+    background-color: #0e0e0e;
+    color: #fff; 
+    margin-bottom: 15px;
+}
+
+
+label, input, button {
+    margin-bottom: 15px;
+    color: #0e0e0e;
+}
+
+input {
+    padding: 8px;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #fff;
+    color: #0e0e0e;  
+    border: #0e0e0e;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005580; 
+}
+
+ 
+select {
+    padding: 8px;
+    font-size: 1em;
+}
+
+ 
+#images {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}
+
+ 
+@media screen and (max-width: 600px) {
+    #images {
+        width: 100%; 
+    }
+}
